@@ -1,0 +1,156 @@
+.navbar {
+  background-color: #3b578e ;
+  
+}
+a, li {
+  color: white;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+   
+}
+
+
+.link{
+  margin-right: 280px;
+}
+
+
+a:hover{
+  color:aliceblue;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  color: 
+aliceblue;
+
+}
+.img-wrap img {
+  height: 250px;
+  background-color: #3aafa9;
+  margin: 2vw;
+  width: 250px;
+  /* padding: 10px; */
+  border-radius: 50%;
+  /* border-color: #fff; */
+  box-shadow: 2px 2px 10px #474747;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+  aliceblue;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+ a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+ 
+  
+  #contact-us-div {
+    padding-top: 2px;
+  }
+  
+  .parallax h2 span {
+    color: #3b578e;
+    font-size: 80%;
+    letter-spacing: 0.5vw;
+  }
+  
+  .parallax {
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f4fb;
+    /* margin-bottom: 7vw; */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-fluid {
+      display: flex;
+      flex-flow: column;
+    }
+  
+    .first {
+      order: 1;
+    }
+  
+    .second {
+      order: 2;
+    }
+  
+    .third {
+      order: 3;
+    }
+  }
+  
+  .Effect {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 72px;
+    top: 50%;
+    width: 100%;
+    color: #201c44;
+    background-color: #f1f4fb;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    transform: translateY(-50%);
+    letter-spacing: 0.2em;
+  }
+
+  
+ .img{
+   opacity: 1; 
+  filter: brightness(30%);
+ }
+
+ .text-on-image {
+  position: absolute;
+  top: 45%;
+  left: 750px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  align-self: center;
+  
+}
+
+.image-text {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 45px;
+  font-size: 70px;
+}
+
+.span1 { color: #333; font-weight: bold; font-size:17px; }
+.span2 { color: #0B95DC; font-weight: bold; font-size:19px; padding: 3px 0px; }
+.span3 { color: #333; font-weight: bold; font-size:17px; }
+.span4 { font-style:italic; padding-top: 5px; }
+
+
+.img-responsive{
+  height: 130px;
+
+
+}
+.img-responsive1{
+  height: 120px;
+
+
+}
+
+.padd10 { padding: 10px; }
+
+
