@@ -1,0 +1,69 @@
+
+/* Events Section Start*/
+#heading {
+  text-align: center;
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: 'Exo', sans-serif;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-color: white;
+}
+
+.event-img {
+  width: 100%;
+  z-index: -1;
+}
+
+#mid {
+  background-color: #222831;
+  color: white;
+}
+
+#prev-events {
+  text-align: center;
+  line-height: 2rem;
+  font-size: 4rem;
+  font-family: 'Exo', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#upcoming-events {
+  width: 100%;
+  padding-top: 100px;
+}
+
+
+/* Upcoming Events */
+.last-container {
+  padding: 7% 15%;
+  text-align: center;
+}
+.upcoming-events {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  line-height: 2rem;
+  font-size: 4rem;
+}
+.eve-img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.eve-para {
+  padding-top: 10px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #002B5B;
+}
+
+/* Events Section End*/
+.last-section{
+  background-color: #3b578e;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 300px;
+}
